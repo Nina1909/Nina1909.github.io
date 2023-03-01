@@ -1,0 +1,90 @@
+div.encabezado {
+    text-align: center;
+    width: 30;
+    margin: 20px auto;
+    background-color: rgb(243, 240, 243);
+    padding: 8px;
+    color: #8D8B8B;
+}
+
+div.encabezado img.centrado {
+    width: 200px;
+    height: 300px;
+    float: center;
+    
+}
+
+
+div.reset {
+    clear: both;
+}
+
+div.container {
+    text-align: left;
+    background-color: rgb(68, 195, 214);
+    color: black;
+    margin: 20px auto
+}
+.titulos {
+    background-color: rgb(210, 221, 57);
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    display: flex;
+    float: inline-start;
+    border: 0px;
+    font-family: Frank Ruhl Libre, serif;
+
+}
+.titulos:hover {
+    background-color: rgb(170, 181, 12);
+}
+.hide {
+    display: none;
+    margin: 10px 5px;
+}
+.show {
+    display: block;
+}
+.col-4 {
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    background-color: rgb(29, 220, 249);
+}
+.footer {
+    background-color: #F1165F;
+    height: 100px;
+    color: white;
+    font-size: 16px;
+    margin: 20px auto;
+    font-size: center;
+    padding: 4px;
+}
+
+#informacionExtra {
+    background-color: #af5bf8;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 10px;
+    margin: 4px 2px;
+    font-family: kalam;
+}
+
+#informacionExtra:hover {
+    background-color: #9424f7
+}
+p.subtitulo{
+    font-family: Frank Ruhl Libre, serif;
+}
+#hideText, #hideText2, #hideText3{
+    color:  rgb(4, 100, 114);
+}
